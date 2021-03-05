@@ -1,0 +1,29 @@
+.bill-list-container {
+  margin: auto;
+  box-sizing: border-box;
+  width: 300px;
+}
+
+.bill-list-row {
+  display: block;
+}
+
+.bill-list-row-content {
+  display: inline-block;
+}
+
+.edit-mode-btn {
+  cursor: pointer;
+  background-color: crimson;
+  border-color: crimson;
+  padding: 5px 0;
+  color: #fff;
+  width: 80px;
+  text-align: center;
+  border-radius: 7px;
+  transition: all 0.2s ease-in-out;
+}
+
+.edit-mode-btn:hover {
+  background-color: rgb(177, 15, 48);
+}

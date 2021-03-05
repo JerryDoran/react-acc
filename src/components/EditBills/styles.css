@@ -1,0 +1,40 @@
+.edit-bill-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.delete-button {
+  display: inline-block;
+  width: 100px;
+  text-align: right;
+  cursor: pointer;
+}
+.delete-button:hover {
+  color: red;
+}
+.edit-mode-done-btn {
+  cursor: pointer;
+  background-color: crimson;
+  border-color: crimson;
+  padding: 5px 0;
+  color: #fff;
+  width: 80px;
+  text-align: center;
+  border-radius: 7px;
+  transition: all 0.2s ease-in-out;
+}
+
+.edit-mode-done-btn:hover {
+  background-color: rgb(177, 15, 48);
+}
+
+.edit-bill-title {
+  width: 100px;
+  display: inline-block;
+}
+.edit-bill-cost-input {
+  width: 200px;
+  display: inline-block;
+}
